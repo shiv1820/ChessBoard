@@ -16,3 +16,6 @@
     background-color: black;
     width:75px
    }
+ #chess-board div:hover {
+    opacity: 0.7 !important;
+   }
