@@ -13,8 +13,23 @@
 #chess-board div:nth-child(40) ~ div:nth-child(-2n+47),
 #chess-board div:nth-child(48) ~ div:nth-child(-2n+56),
 #chess-board div:nth-child(56) ~ div:nth-child(-2n+63) {
-    background-color: black;
+    background-color: rgb(89, 49, 6);
     width:75px
+   }
+   #chess-board div:nth-child(-2n+7),
+   #chess-board div:nth-child(9) ~ div:nth-child(-2n+16),
+   #chess-board div:nth-child(15) ~ div:nth-child(-2n+23),
+   #chess-board div:nth-child(25) ~ div:nth-child(-2n+32),
+   #chess-board div:nth-child(31) ~ div:nth-child(-2n+39),
+   #chess-board div:nth-child(40) ~ div:nth-child(-2n+48),
+   #chess-board div:nth-child(48) ~ div:nth-child(-2n+55),
+   #chess-board div:nth-child(56) ~ div:nth-child(-2n+64)
+    {
+    background-color: rgb(180, 102, 18); 
+   }
+   #chess-board{
+    font-size: 45px;
+    text-align: center;
    }
  #chess-board div:hover {
     opacity: 0.7 !important;
